@@ -20,6 +20,7 @@ Model.prototype = {
 //        this.canvas.clear();
         
         this.drawWayPoint();
+
     }
 
     drawWayPoint: function () {
