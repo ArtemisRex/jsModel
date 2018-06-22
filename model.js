@@ -18,7 +18,7 @@ Waterfall.prototype = {
     update: function () {
         var i = 0, nearest, color;
 
-        this.canvas.clear();
+//        this.canvas.clear();
         
         this.drawWayPoint();
     }
