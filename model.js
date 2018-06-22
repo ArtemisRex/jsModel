@@ -10,20 +10,22 @@ var Model = function (canvas) {
     this.canvas = canvas;
     this.wayPoint = new Vector(canvas.width / 2, this.originY + 200);
 
-    update: function () {
+};
 
-        //this.canvas.clear();
+
+Waterfall.prototype = {
+    
+    update: function () {
+        var i = 0, nearest, color;
+
+        this.canvas.clear();
         
         this.drawWayPoint();
-        
-    },
-
+    }
 
     drawWayPoint: function () {
         var alpha = 1, color = 'rgba(0,153,255,' + alpha + ')';
         this.canvas.circle(this.wayPoint.x, this.wayPoint.y, 5, color);
     }
 
-
 };
-
