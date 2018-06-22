@@ -25,6 +25,7 @@ $ ( document ).ready(function() {
 */
     model.update()
 
+/*
     $("#canvas").click(function (e) {
         var x = Math.floor((e.pageX - $("#canvas").offset().left)),
             y = Math.floor((e.pageY - $("#canvas").offset().top));
