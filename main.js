@@ -25,14 +25,13 @@ $ ( document ).ready(function() {
    // model.update();
    // model.drawWayPoint();
 
-
-/*
     $("#canvas").click(function (e) {
         var x = Math.floor((e.pageX - $("#canvas").offset().left)),
             y = Math.floor((e.pageY - $("#canvas").offset().top));
         model.wayPoint = new Vector(x, y);
     });
-   
+
+/*
     $("#canvas").mousedown(function () {
         mouseDown = true;
     });
