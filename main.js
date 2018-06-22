@@ -17,8 +17,8 @@ $ ( document ).ready(function() {
         mouseDown = false;
 //    if (debug) {
 
-    model.drawWayPoint();
-//    model.update();
+//    model.drawWayPoint();
+    model.update();
 //    } else {
     // setInterval(model.update.bind(model), 24);
 //    }
