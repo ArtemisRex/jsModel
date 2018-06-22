@@ -16,9 +16,10 @@ $ ( document ).ready(function() {
         debug = false,
         mouseDown = false;
 //    if (debug) {
-    model.update();
+
+//    model.update();
 //    } else {
-//        setInterval(model.update.bind(model), 24);
+     setInterval(model.update.bind(model), 24);
 //    }
 
 /*
