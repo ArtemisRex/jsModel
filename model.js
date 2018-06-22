@@ -4,7 +4,7 @@
 var Model = function (canvas) {
     
     var ModelDomainWidth = 400;
-    this.originX = canvas.width / 2 - waterfallWidth / 2;
+    this.originX = canvas.width / 2 - ModelDomainWidth / 2;
     this.originY = 0;
     this.ModelDomainWidth = ModelDomainWidth;
     this.canvas = canvas;
