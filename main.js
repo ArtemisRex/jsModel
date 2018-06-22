@@ -18,7 +18,7 @@ $ ( document ).ready(function() {
     if (debug) {
         model.update();
     } else {
-        setInterval(model.update.bind(model), 60000);
+        setInterval(model.update.bind(model), 24);
     };
   
 
@@ -26,7 +26,7 @@ $ ( document ).ready(function() {
    // model.drawWayPoint();
 
 
-
+/*
     $("#canvas").click(function (e) {
         var x = Math.floor((e.pageX - $("#canvas").offset().left)),
             y = Math.floor((e.pageY - $("#canvas").offset().top));
@@ -49,6 +49,6 @@ $ ( document ).ready(function() {
             y = Math.floor((e.pageY - $("#canvas").offset().top));
         model.wayPoint = new Vector(x, y);
     });
-
+*/
 });
 
