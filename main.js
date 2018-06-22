@@ -16,13 +16,14 @@ $ ( document ).ready(function() {
         modelTimeStepMilliSec = 24,
         debug = true,
         mouseDown = false;
-
+/*
     if (debug) {
         model.update();
     } else {
         setInterval(model.update.bind(model), modelTimStepMilliSec);
     }
-
+*/
+    model.update()
 
     $("#canvas").click(function (e) {
         var x = Math.floor((e.pageX - $("#canvas").offset().left)),
