@@ -6,11 +6,9 @@
 $ ( document ).ready(function() {
 
     var canvas = new Canvas($('canvas')[0]);
-    $("#canvas").click(function () {
-        var alpha = 1, color = 'rgba(0,153,255,' + alpha + ')';
-        var x = 100, y = 100;
-	this.canvas.circle(x, y, 5, color);
-    }
+    var alpha = 1, color = 'rgba(0,153,255,' + alpha + ')';
+    var x = 100, y = 100;
+    canvas.circle(x, y, 5, color);
 
 /*
     var canvas = new Canvas($('canvas')[0]),
