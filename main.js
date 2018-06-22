@@ -4,23 +4,22 @@
 // shorthand version is  $( function() {
 // This tells JS not to execute until the html page is loaded
 $ ( document ).ready(function() {
-
+/*
     var canvas = new Canvas($('canvas')[0]);
     var alpha = 1, color = 'rgba(0,153,255,' + alpha + ')';
     var x = 100, y = 100;
     canvas.circle(x, y, 5, color);
+*/
 
-/*
     var canvas = new Canvas($('canvas')[0]),
         model = new Model(canvas),
         debug = false,
         mouseDown = false;
-    if (debug) {
-        model.update();
-    } else {
-        setInterval(model.update.bind(model), 24);
-    }
-*/
+//    if (debug) {
+    model.update();
+//    } else {
+//        setInterval(model.update.bind(model), 24);
+//    }
 
 /*
     $("#canvas").click(function (e) {
@@ -65,7 +64,7 @@ Model.prototype = {
     
     update: function () {
 
-        this.canvas.clear();
+        //this.canvas.clear();
         
         this.drawWayPoint();
         
