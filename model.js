@@ -16,7 +16,6 @@ var Model = function (canvas) {
 Model.prototype = {
     
     update: function () {
-        var i = 0, nearest, color;
 
 //        this.canvas.clear();
         
