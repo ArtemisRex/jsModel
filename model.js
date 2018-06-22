@@ -13,7 +13,7 @@ var Model = function (canvas) {
 };
 
 
-Waterfall.prototype = {
+Model.prototype = {
     
     update: function () {
         var i = 0, nearest, color;
