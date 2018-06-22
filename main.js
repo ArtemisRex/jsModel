@@ -24,7 +24,7 @@ $ ( document ).ready(function() {
     if (debug) {
         model.update();
     } else {
-        setInterval(model.update, modelTimStepMilliSec);
+        setInterval(model.update.bind(model), modelTimStepMilliSec);
     }
   
 
