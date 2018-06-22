@@ -16,6 +16,8 @@ $ ( document ).ready(function() {
         modelTimeStepMilliSec = 24,
         debug = false,
         mouseDown = false;
+
+    model.drawWayPoint()
 /*
     if (debug) {
         model.update();
@@ -24,7 +26,7 @@ $ ( document ).ready(function() {
     }
 */
 //   model.update()
-    model.drawWayPoint()
+  
 /*
     $("#canvas").click(function (e) {
         var x = Math.floor((e.pageX - $("#canvas").offset().left)),
