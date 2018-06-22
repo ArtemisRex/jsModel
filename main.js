@@ -24,7 +24,7 @@ $ ( document ).ready(function() {
     }
 */
 //   model.update()
-    model.drawWaypoint()
+    model.drawWayPoint()
 /*
     $("#canvas").click(function (e) {
         var x = Math.floor((e.pageX - $("#canvas").offset().left)),
