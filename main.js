@@ -25,14 +25,15 @@ $ ( document ).ready(function() {
    // model.update();
    // model.drawWayPoint();
 
-
-/*
+    // This works to move the dot when the mouse is released
     $("#canvas").click(function (e) {
         var x = Math.floor((e.pageX - $("#canvas").offset().left)),
             y = Math.floor((e.pageY - $("#canvas").offset().top));
         model.wayPoint = new Vector(x, y);
     });
-   
+
+    // The rest of this is supposed to move if the mouse is depressed
+/*
     $("#canvas").mousedown(function () {
         mouseDown = true;
     });
