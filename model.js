@@ -10,14 +10,9 @@ var Model = function (canvas) {
     this.canvas = canvas;
     this.wayPoint = new Vector(canvas.width / 2, this.originY + 200);
 
-};
-
-
-Model.prototype = {
-    
     update: function () {
 
-        this.canvas.clear();
+        //this.canvas.clear();
         
         this.drawWayPoint();
         
@@ -28,6 +23,7 @@ Model.prototype = {
         var alpha = 1, color = 'rgba(0,153,255,' + alpha + ')';
         this.canvas.circle(this.wayPoint.x, this.wayPoint.y, 5, color);
     }
+
 
 };
 
