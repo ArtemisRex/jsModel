@@ -17,7 +17,7 @@ Model.prototype = {
     
     update: function () {
 
-        //this.canvas.clear();
+        this.canvas.clear();
         
         this.drawWayPoint();
         
