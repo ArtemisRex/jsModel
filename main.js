@@ -13,22 +13,19 @@ $ ( document ).ready(function() {
 
     var canvas = new Canvas($('canvas')[0]),
         model = new Model(canvas),
-        modelTimeStepMilliSec = 24,
         debug = false,
         mouseDown = false;
-
-   // model.update();
-    model.drawWayPoint();
-
-/*
     if (debug) {
         model.update();
     } else {
-        setInterval(model.update, modelTimStepMilliSec);
-    }
-*/
-//   model.update()
+        setInterval(model.update.bind(model), 24);
+    };
   
+
+   // model.update();
+   // model.drawWayPoint();
+
+
 /*
     $("#canvas").click(function (e) {
         var x = Math.floor((e.pageX - $("#canvas").offset().left)),
