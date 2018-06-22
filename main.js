@@ -14,7 +14,7 @@ $ ( document ).ready(function() {
         setInterval(model.update.bind(model), 24);
     }
 
-    model.wayPoint = new Vector(x, y);
+
 /*
     $("#canvas").click(function (e) {
         var x = Math.floor((e.pageX - $("#canvas").offset().left)),
