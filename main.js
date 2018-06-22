@@ -6,7 +6,7 @@
 $ ( document ).ready(function() {
     var canvas = new Canvas($('canvas')[0]),
         model = new Model(canvas),
-        debug = false,
+        debug = true,
         mouseDown = false;
     if (debug) {
         model.update();
