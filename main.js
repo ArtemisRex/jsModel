@@ -23,8 +23,8 @@ $ ( document ).ready(function() {
         setInterval(model.update, modelTimStepMilliSec);
     }
 */
-   model.update()
-
+//   model.update()
+    model.drawWaypoint()
 /*
     $("#canvas").click(function (e) {
         var x = Math.floor((e.pageX - $("#canvas").offset().left)),
