@@ -4,20 +4,20 @@
 // shorthand version is  $( function() {
 // This tells JS not to execute until the html page is loaded
 $ ( document ).ready(function() {
-
+/*
     var canvas = new Canvas($('canvas')[0]);
     var alpha = 1, color = 'rgba(0,153,255,' + alpha + ')';
     var x = 100, y = 100;
     canvas.circle(x, y, 5, color);
+*/
 
-/*
     var canvas = new Canvas($('canvas')[0]),
         model = new Model(canvas),
         modelTimeStepMilliSec = 24,
         debug = false,
         mouseDown = false;
-*/
- //   model.drawWayPoint()
+
+   model.drawWayPoint();
 /*
     if (debug) {
         model.update();
