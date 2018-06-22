@@ -14,7 +14,7 @@ $ ( document ).ready(function() {
     var canvas = new Canvas($('canvas')[0]),
         model = new Model(canvas),
         modelTimeStepMilliSec = 24,
-        debug = true,
+        debug = false,
         mouseDown = false;
 /*
     if (debug) {
