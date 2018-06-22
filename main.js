@@ -17,8 +17,8 @@ $ ( document ).ready(function() {
         debug = false,
         mouseDown = false;
 
-   // model.update();
-   model.drawWayPoint();
+   model.update();
+   // model.drawWayPoint();
 
 /*
     if (debug) {
